@@ -14,6 +14,11 @@ public class Autoclick : MonoBehaviour
         StartCoroutine(AutoClicker());
     }
     
+    public void UpgradeAutoClic()
+    {
+        clickPower += 1;
+    }
+
     private IEnumerator AutoClicker()
     {
         while (true)
