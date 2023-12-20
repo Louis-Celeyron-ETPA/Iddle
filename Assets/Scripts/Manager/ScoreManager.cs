@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class ScoreManager : MonoBehaviour
+public class ScoreManager : Manager
 {
 
     private int _score;
@@ -25,6 +25,9 @@ public class ScoreManager : MonoBehaviour
     public void RiseScore(int amount)
     {
         _score += amount;
-        scoreText.text = _score.ToString("0000");
+        if(scoreText)
+        {
+            scoreText.text = _score.ToString("0000");
+        }
     }
 }

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: BigDuck
   m_EditorClassIdentifier: 
   duckName: BigDuck
-  hpMax: 50
+  affectionNeeded: 12
   duckSprite: {fileID: 21300000, guid: 1e8997d0d23cfd44d8e37458b51a308b, type: 3}

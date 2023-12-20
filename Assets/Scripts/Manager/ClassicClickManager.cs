@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClassicClic : MonoBehaviour
+public class ClassicClickManager : Manager
 {
     public int clickPower = 1;
     public ScoreManager scoreManager;

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Autoclick : MonoBehaviour
+public class AutoClickManager : Manager
 {
 
     public ScoreManager scoreManager;
