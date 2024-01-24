@@ -536,7 +536,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 40
   m_Sprite: {fileID: 21300000, guid: 17789dcc216b60e40825ffd09e8fa6fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -580,6 +580,9 @@ MonoBehaviour:
   nameUI: {fileID: 1364514278}
   ducksToRead:
   - {fileID: 11400000, guid: c02243b23d56ba34ebd9b6432f3a56f8, type: 2}
+  - {fileID: 11400000, guid: e1c66021d2c007544b274b425871c607, type: 2}
+  - {fileID: 11400000, guid: de5f54ad6fc3c9a41b127a0c95deab21, type: 2}
+  - {fileID: 11400000, guid: 74c088756e27c5b4bba78ef00bb9f833, type: 2}
   affectionSlider: {fileID: 975763785}
 --- !u!61 &449995553
 BoxCollider2D:
@@ -1091,7 +1094,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -142
   m_Sprite: {fileID: -2413806693520163455, guid: 0f86029d9e32c5d44a43d38e3b04ea5b, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 0.46666667}
   m_FlipX: 0
@@ -1273,7 +1276,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.5
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1550,6 +1553,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2110999224040023375, guid: c768f922d5da9174da52a997760243cb, type: 3}
+      propertyPath: _duckList._weightedElementsList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110999224040023375, guid: c768f922d5da9174da52a997760243cb, type: 3}
+      propertyPath: _duckList._weightedElementsList.Array.data[0].Weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110999224040023375, guid: c768f922d5da9174da52a997760243cb, type: 3}
+      propertyPath: _duckList._weightedElementsList.Array.data[1].Weight
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110999224040023375, guid: c768f922d5da9174da52a997760243cb, type: 3}
+      propertyPath: _duckList._weightedElementsList.Array.data[2].Weight
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110999224040023375, guid: c768f922d5da9174da52a997760243cb, type: 3}
+      propertyPath: _duckList._weightedElementsList.Array.data[3].Weight
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110999224040023375, guid: c768f922d5da9174da52a997760243cb, type: 3}
+      propertyPath: _duckList._weightedElementsList.Array.data[0].Element
+      value: 
+      objectReference: {fileID: 11400000, guid: c02243b23d56ba34ebd9b6432f3a56f8, type: 2}
+    - target: {fileID: 2110999224040023375, guid: c768f922d5da9174da52a997760243cb, type: 3}
+      propertyPath: _duckList._weightedElementsList.Array.data[1].Element
+      value: 
+      objectReference: {fileID: 11400000, guid: de5f54ad6fc3c9a41b127a0c95deab21, type: 2}
+    - target: {fileID: 2110999224040023375, guid: c768f922d5da9174da52a997760243cb, type: 3}
+      propertyPath: _duckList._weightedElementsList.Array.data[2].Element
+      value: 
+      objectReference: {fileID: 11400000, guid: e1c66021d2c007544b274b425871c607, type: 2}
+    - target: {fileID: 2110999224040023375, guid: c768f922d5da9174da52a997760243cb, type: 3}
+      propertyPath: _duckList._weightedElementsList.Array.data[3].Element
+      value: 
+      objectReference: {fileID: 11400000, guid: 74c088756e27c5b4bba78ef00bb9f833, type: 2}
     - target: {fileID: 4445079726701100568, guid: c768f922d5da9174da52a997760243cb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

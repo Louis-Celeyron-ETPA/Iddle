@@ -20,6 +20,14 @@ public class ManagerManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        foreach (var manager in _subManagers)
+        {
+            manager.OnSceneLoaded();
+        }
+    }
+
     private void Register()
     {
         _ManagerManagerInstance = this;

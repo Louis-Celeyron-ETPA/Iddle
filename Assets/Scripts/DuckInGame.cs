@@ -18,8 +18,8 @@ public class DuckInGame: MonoBehaviour
 
     private void Awake()
     {
-        ReadDuck(ducksToRead[0]);
         _duckManager = ManagerManager.GetManager<DuckManager>();
+        _duckManager.duckInGame = this;
     }
 
     public void RiseAffection(int amount)

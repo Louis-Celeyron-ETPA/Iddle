@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: DoggoDuck
   m_EditorClassIdentifier: 
   duckName: CuteDuck
-  hpMax: 2
-  duckSprite: {fileID: 21300000, guid: f2ea9ba1f63364248b2c147540c3f605, type: 3}
+  affectionNeeded: 12
+  duckSprite: {fileID: 21300000, guid: f0048cbde8f190642b16504ef0e203b5, type: 3}
